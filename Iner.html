@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Of Programming</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<h2>Работа со списком студентов</h2>
+<body>
+    <div class="container">
+        <form class="form-addStudent">
+            <div class="form-item">
+                <label for="name">Имя: </label>
+                <input type="text" name="name" placeholder="Введите имя">
+            </div>
+    
+            <div class="form-item">
+                <label for="surname">Фамилия: </label>
+                <input type="text" name="surname" placeholder="Введите фамилию"> 
+            </div>
+    
+            <div class="form-item">
+                <label for="age">Возраст: </label>
+                <input type="text" name="age" placeholder="Введите возраст">
+            </div>
+    
+            <div class="form-item">
+                <label for="mark">Оценки: </label>
+                <input type="text" name="mark" placeholder="Введите оценки">
+            </div>
+    
+            <div class="form-item">
+                <label for="specialization">Специальность: </label>
+                <input type="text" name="specialization" placeholder="Введите специальность">
+            </div>
+    
+            <div class="form-button">
+                <input type="button" value="Добавить студента">
+            </div>
+        </form>
+    
+        <div>
+            <ol class="listOfStudents"></ol>
+            <button id="update">Обновить</button>
+        </div>
+    </div>
+</body>
+</html>
